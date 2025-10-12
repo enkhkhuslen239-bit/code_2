@@ -1,0 +1,100 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/enkhkhuslen239-bit/code_2/blob/main/hicheel6\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score1 = 87\n",
+        "score2 = 92\n",
+        "score3 = 76\n",
+        "score4 = 81\n",
+        "score5 = 95\n",
+        "dundaj = (score1 + score2 + score3 + score4 + score5)/5\n",
+        "print(\"dundaj dun:\" , dundaj , )\n",
+        "m= max(score1, score2, score3 , score4 , score5)\n",
+        "print(\"max dun:\" , m )\n",
+        "n = min(score1, score2, score3 , score4 , score5)\n",
+        "print(\"min dun:\" ,n)"
+      ],
+      "metadata": {
+        "id": "eO3oaaWqPcPJ",
+        "outputId": "a478ec8a-cdc7-4a5e-cd5b-f5e867d9a49c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dundaj dun: 86.2\n",
+            "max dun: 95\n",
+            "min dun: 76\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "b = 6\n",
+        "c = 7\n",
+        "s = (a + b + c)/2\n",
+        "print (\"S=\" ,s)\n",
+        "import math\n",
+        "s = math.sqrt(s*(s-a)*(s-b)*(s-c))\n",
+        "print(round (s))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1XecuwIaTqwQ",
+        "outputId": "d12d6b30-1e08-4411-915b-4e68cca62d62"
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "S= 9.0\n",
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "nsz7EsV_TmhD"
+      }
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
